@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-Nov-2015, 12:05:40 PM
+    Author     : user
+*/
+
+.root {
+    -fx-padding: 5 5 5 5;
+}
+
+.aboutLabel {    
+    /*-fx-text-fill: red;*/    
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 100%, repeat, whitesmoke, red);
+}
+
+.labels {
+    -fx-font-size: 20px;
+}
+
+.buttons {
+    
+    
+}
+
+.buttonBar {
+    -fx-border-insets: 0;
+    -fx-spacing: 0;
+    -fx-padding: 0 5 5 0;
+}
+
+.table {
+    -fx-border-insets: 0;
+    -fx-spacing: 0;
+    -fx-padding: 0 5 5 0;
+    -fx-table-cell-border-color: transparent;
+    -fx-background-color: white;
+    /*-fx-border-width: 1;*/
+    
+}
+.table-column-cell {
+    -fx-background-color: white;
+}
+
+.gearsCellHeader {
+    -fx-cell-size: 50 ;  
+    /*-fx-font-size: 12px;*/
+    -fx-font-weight: bold;
+    
+}
+
+
